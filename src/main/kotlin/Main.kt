@@ -1,6 +1,7 @@
 package org.example
 
 import org.example.taskWithClassesAnimals.*
+import org.example.taskWithQueue.Queue
 
 fun main() {
     val shirhan = Tiger(15, 25)
@@ -38,4 +39,5 @@ fun main() {
     val fish = Fish(30)
     fish.swim()
     println(fish.sumSpeed)
+
 }
